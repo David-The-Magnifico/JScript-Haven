@@ -11,7 +11,7 @@ var person = {
         postalCode: "100001",
 
     }
-};
+}
 
 console.log(person.firstName);
 console.log(person.age);
