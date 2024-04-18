@@ -1,6 +1,7 @@
 function addNumbers(x,y) {
-    let answer = x + y;
-    return answer
+    return x+y;
 }
 
-console.log(addNumbers(2,3));
+console.log(addNumbers(2,5));
+
+module.exports = addNumbers
