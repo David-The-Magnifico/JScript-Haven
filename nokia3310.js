@@ -502,7 +502,6 @@ function messagesMenu() {
 
 
 
-
 function chatMenu() {
     console.log(`Enter
     CHAT
@@ -845,10 +844,6 @@ function prepaidMenu() {
         }
     });
 }
-
-
-
-
 
 
 
