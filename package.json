@@ -1,0 +1,15 @@
+{
+  "name": "jscript-haven-1",
+  "version": "1.0.0",
+  "description": "A Journey to becoming an Emperor in my Domain!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
