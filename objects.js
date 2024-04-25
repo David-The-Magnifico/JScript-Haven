@@ -9,5 +9,11 @@ let dog = Object.create(animal);
 dog.type = "Dog";
 dog.color = "Brown";
 
-dog.sound();
-console.log(dog)
+
+let goat = {};
+Object.setPrototypeOf(goat, animal);
+goat.type = "Goat";
+console.log(goat);
+
+//dog.sound();
+//console.log(dog)
