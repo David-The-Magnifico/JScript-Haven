@@ -10,7 +10,9 @@ dog.type = "Dog";
 dog.color = "Brown";
 
 
-let goat = {};
+let goat = {
+    color: "black"
+};
 Object.setPrototypeOf(goat, animal);
 goat.type = "Goat";
 console.log(goat);
