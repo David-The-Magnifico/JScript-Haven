@@ -316,3 +316,8 @@ nav{
     font-size: 13px;
     color: #9a9a9a;
 }
+.post-text{
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-weight: 500;
+}
