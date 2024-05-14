@@ -1,0 +1,50 @@
+.main-container{
+    background-color: black;
+    width: 330px;
+    padding: 15px;
+}
+input{
+    padding: 20px;
+    width: 89%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9acd32;
+    color: black;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(4, 77px);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.button button{
+    height: 70px;
+    width: 70px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.button2{
+    display: grid;
+    grid-template-columns: 140px 95px 70px 1fr;
+    gap: 13px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(0 0 40%);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.button2 .equals{
+    width: 155px;
+    background: #ed4632;
+    font-size: 40px;
+    color: whitesmoke;
+}
