@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main-container">
+        <input type="text" id="result">
+        <div class="button">
+            <button onclick="refreshInput()" style="background: #ed4632; color: whitesmoke">C/E</button>
+            <button onclick="addToInput('-')" style="background: #0f74da">+/-</button>
+            <button onclick="addToInput('%')" style="background: #0f74da">%</button>
+            <button class="colour" onclick="addToInput('/')" style="background: #0f74da">÷</button>
+            <button onclick="addToInput('7')">7</button>
+            <button onclick="addToInput('8')">8</button>
+            <button onclick="addToInput('9')">9</button>
+            <button class="colour" onclick="addToInput('*')" style="background: #0f74da">x</button>
+            <button onclick="addToInput('4')">4</button>
+            <button onclick="addToInput('5')">5</button>
+            <button onclick="addToInput('6')">6</button>
+            <button class="colour" onclick="addToInput('-')" style="background: #0f74da">-</button>
+            <button onclick="addToInput('1')">1</button>
+            <button onclick="addToInput('2')">2</button>
+            <button onclick="addToInput('3')">3</button>
+            <button class="colour" onclick="addToInput('+')" style="background: #0f74da">+</button>
+            <button onclick="addToInput('0')">0</button>
+            <button onclick="addToInput('.')">.</button>
+
+            <div class="button2">
+                <button class="equals" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
