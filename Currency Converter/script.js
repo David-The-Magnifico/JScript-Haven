@@ -6,7 +6,7 @@ const fromSelect = document.getElementById('from');
 const toSelect = document.getElementById('to');
 const convertBtn = document.getElementById('convertBtn');
 const resultDiv = document.getElementById('result');
-
+ 
 
 const convertCurrency = () => {
     const amount = amountInput.value;
