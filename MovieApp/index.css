@@ -1,0 +1,106 @@
+/* Add your custom styles here */
+.movie-card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+}
+
+.movie-card.active {
+    transform: translateX(100%);
+}
+
+.movie-card.prev {
+    transform: translateX(-100%);
+}
+
+body {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+    background-size: cover;
+    animation: slidein 10s infinite alternate;
+}
+
+@keyframes slidein {
+    0% {
+        background-position: top;
+        background-size: 3000px;
+    }
+    100% {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
+}
+
+.search input {
+    width: 350px;
+    height: 30px;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    outline: none;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.search button {
+    width: 80px;
+    height: 30px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 16px;
+    background-color: #072A6C;
+    color: white;
+    cursor: pointer;
+}
+
+.movieDetails {
+    width: 300px;
+    height: fit-content;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px white;
+}
+
+.movieDetails img {
+    width: 100%;
+    height:fit-content;
+    border-radius: 10px;
+
+}
+
+.movieDetails .movieTitle {
+    margin-bottom: 15px;
+    font-size: 9px;
+}
+
+.movieDetails .rating {
+    margin-bottom: 10px;
+}
+
+.movieDetails p {
+    font-size: 20px;
+    text-justify: auto;
+}
+
+.movieDetails h2 {
+    margin-bottom: 10px;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.moviesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
