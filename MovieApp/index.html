@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieApp</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        /* Add your custom styles here */
+        .movie-card {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            margin: 10px;
+            overflow: hidden;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .movie-card.active {
+            transform: translateX(100%);
+        }
+
+        .movie-card.prev {
+            transform: translateX(-100%);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="mainContainer">
+        <div class="search" alt="Search">
+            <input type="text" class="placeholder" placeholder="Search for a movie">
+            <button class="searchButton">Search</button>
+        </div>
+        <div class="moviesContainer">
+            <!-- Add movie cards here -->
+            <div class="movieDetails">
+                <img src=https://m.media-amazon.com/images/M/MV5BY2QwOGE2NGQtMWQwNi00M2IzLThlNWItYWMzNGQ5YWNiZDA4XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_FMjpg_UX1000_.jpg" alt="Movie 1">
+                <div class="movieTitle">
+                    <h1>Godzilla x Kong: The New Empire (2024)</h1>
+                    <p>Two ancient titans, Godzilla and Kong, clash in an epic battle as humans unravel their intertwined origins and connection to Skull Island's mysteries.</p>
+                    <div class="rating">
+                        <span>Rating:6.4/10</span>
+                    </div>
+                    <h2>Director</h2>
+                    <p>Adams Wingard</p>
+                </div>
+            </div>
+            <div class="movieDetails">
+                <img src="https://m.media-amazon.com/images/M/MV5BNGE5MWJmZWYtN2ZlMi00ZjY1LTlhYTUtMzQ2Y2IxZWQyYTA2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg" alt="">
+                <div class="movieTitle">
+                    <h1>Ghostbusters: Frozen Empire (2024)</h1>
+                    <p>When the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second ice age.
+                    </p>
+                    <div class="rating">
+                        <span>Rating:6.2/10</span>
+                    </div>
+                    <h2>Director</h2>
+                    <p>Gill Kenan</p>
+                </div>
+            </div>
+            <!-- Add more movie cards as needed -->
+            <div class="movieDetails">
+                <img src="https://m.media-amazon.com/images/M/MV5BZGI4NTEwNTAtZDcwMi00MDkxLTg1OGYtNTZmMzE3ZDljNzVlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg" alt="Movie 1">
+                <div class="movieTitle">
+                    <h1>Kingdom of the Planet of the Apes (2024)</h1>
+                    <p>Many years after the reign of Caesar, a young ape goes on a journey that will lead him to question everything he's been taught about the past and make choices that will define a future for apes and humans alike.</p>
+                    <div class="rating">
+                        <span>Rating:7.3/10</span>
+                    </div>
+                    <h2>Director</h2>
+                    <p>Wes Ball</p>
+                </div>
+            </div>
+            <div class="movieDetails">
+                <img src="https://m.media-amazon.com/images/M/MV5BZmU0MmI2MmQtN2ZjZC00MjU4LWE3YTUtMWZhOWM3NDFjODg3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg" alt="Movie 1">
+                <div class="movieTitle">
+                    <h1>Bad Boys: Ride or Die (2024)</h1>
+                    <p>This Summer, the world's favorite Bad Boys are back with their iconic mix of edge-of-your seat action and outrageous comedy but this time with a twist: Miami's finest are now on the run.</p>
+                    <div class="rating">
+                        <span>Rating:8.1/10</span>
+                    </div>
+                    <h2>Director</h2>
+                    <p>Adil El Arbi; Bilali Fallah/p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="center">
+        <h1>
+            
+        </h1>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+</html>
